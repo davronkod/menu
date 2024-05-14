@@ -1,0 +1,354 @@
+@font-face {
+    font-family: Inter;
+    src: url("../fonts/Inter-Bold.ttf");
+}
+
+@font-face {
+    font-family: Inter1;
+    src: url("../fonts/Inter-Medium.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: #ffff;
+    color: #000;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+
+.header {
+    width: 1187px;
+    height: 80px;
+    margin-left: 100px;
+}
+
+.xisobob {
+    width: 277px;
+    height: 40px;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.57px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #0061F7;
+    margin-left: 100px;
+    padding: 30px 0px;
+}
+
+.sana {
+    font-family: Inter1;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #0061F7;
+    margin-left: 650px;
+    margin-top: -23px;
+}
+
+.uz {
+    font-family: Inter1;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-left: 1000px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+.bi-arrow-down-short {
+    font-size: 30px;
+    margin-left: 1025px;
+    margin-top: -25px;
+    position: absolute;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.kun {
+    cursor: pointer;
+    margin-left: 1100px;
+    margin-top: -32px;
+    position: absolute;
+}
+
+.ob {
+    margin-left: 1170px;
+    position: absolute;
+    margin-top: -32px;
+    cursor: pointer;
+}
+
+.jami {
+    width: 545px;
+    height: 228px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 25px 0px #00000026;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.main {
+    margin-left: 100px;
+}
+
+.uquv {
+    font-family: Inter1;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38.73px;
+    letter-spacing: -1px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+footer {
+    margin-left: 85px;
+}
+
+.raqam {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.57px;
+    letter-spacing: -1px;
+    text-align: left;
+    margin-top: 60px;
+    position: absolute;
+    margin-left: 20px;
+}
+
+.icon {
+    margin-left: 400px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.soni {
+    width: 545px;
+    height: 228px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 25px 0px #00000026;
+    margin-left: 700px;
+    margin-top: -230px;
+}
+
+.uqut {
+    font-family: Inter1;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38.73px;
+    letter-spacing: -1px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.raqam1 {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.57px;
+    letter-spacing: -1px;
+    text-align: left;
+    margin-top: 60px;
+    position: absolute;
+    margin-left: 20px;
+}
+
+.icon1 {
+    margin-left: 400px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.st {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.bi-list {
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 35px;
+    position: absolute;
+}
+
+.dark-mode {
+    background: #000;
+    color: #ffff;
+}
+
+.sidebar {
+    width: 270px;
+    height: 1300px;
+    background: #2F49D1;
+    margin-left: -120px;
+    margin-top: -1320px;
+    margin-left: -50%;
+}
+
+.bi-person-rolodex {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    margin-left: 30px;
+    margin: 30px;
+    position: absolute;
+}
+
+.side {
+    width: 80px;
+    height: 53px;
+    color: #ffff;
+    margin-left: 80px;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.bi-list {
+    margin-left: 50px;
+}
+
+.bi-x {
+    margin-left: 200px;
+    font-size: 40px;
+    margin-top: 20px;
+    color: #ffff;
+    position: absolute;
+    cursor: pointer;
+}
+
+hr {
+    width: 213px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 30px;
+}
+
+.bi-house-door-fill {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 130px;
+    position: absolute;
+    margin-left: 30px;
+}
+
+.linl {
+    font-family: Inter1;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 132px;
+    position: absolute;
+    margin-left: 70px;
+}
+
+.uy {
+    cursor: pointer;
+}
+
+.uy2 {
+    margin-top: 60px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.bi-mortarboard-fill {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 130px;
+    position: absolute;
+    margin-left: 30px;
+}
+
+.uy3 {
+    margin-top: 115px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.bi-people-fill {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 130px;
+    position: absolute;
+    margin-left: 30px;
+}
+
+.uy4 {
+    margin-top: 170px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.bi-wallet-fill {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 130px;
+    position: absolute;
+    margin-left: 30px;
+}
+
+.uy5 {
+    margin-top: 230px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.que {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 130px;
+    position: absolute;
+    margin-left: 30px;
+}
+
+.uy6 {
+    margin-top: 295px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.bi-chat-left-dots-fill {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 130px;
+    position: absolute;
+    margin-left: 30px;
+}
+
+.linl2 {
+    font-family: Inter1;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 125px;
+    margin-left: 70px;
+}
